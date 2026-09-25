@@ -19,7 +19,9 @@ PowerShell script for automatically downloading documents from an ALCO-web porta
 
 1. Set up the login credentials using `credentials.ps1`. This encrypts the credentials and stores them in `credentials.xml`.
 
-2. Start the download using `download.ps1`. The downloaded documents are organized in the following directory structure:
+2. Set the URL of the ALCO-web portal in `download.ps1` by changing the `BaseUrl` variable.
+
+3. Start the download using `download.ps1`. The downloaded documents are organized in the following directory structure:
 
 ```
 Accounting period/
